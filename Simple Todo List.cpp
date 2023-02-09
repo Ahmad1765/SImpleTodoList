@@ -16,7 +16,7 @@ void addTask() {
     getline(cin, task);
     todoList.push_back(task);
     cout << "Task added successfully." << endl;
-    cout << "=======================================" << endl;
+    cout << "==========================" << endl;
 }
 
 void viewTasks() {
@@ -26,7 +26,7 @@ void viewTasks() {
     for (int i = 0; i < todoList.size(); i++) {
         cout << i + 1 << ". " << todoList[i] << endl;
     }
-    cout << "======================================="<<endl;
+    cout << "=========================="<<endl;
 }
 
 void deleteTask() {
@@ -48,7 +48,7 @@ void deleteTask() {
     }
 
     }
-    cout << "=======================================" << endl;
+    cout << "==========================" << endl;
 }
 
 int main() {
@@ -63,7 +63,7 @@ int main() {
         case 1:
             addTask();
             break;
-        case 2:a
+        case 2:
             viewTasks();
             break;
         case 3:
